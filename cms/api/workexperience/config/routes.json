@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/workexperiences",
+      "handler": "Workexperience.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/workexperiences/count",
+      "handler": "Workexperience.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/workexperiences/:id",
+      "handler": "Workexperience.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/workexperiences",
+      "handler": "Workexperience.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/workexperiences/:id",
+      "handler": "Workexperience.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/workexperiences/:id",
+      "handler": "Workexperience.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

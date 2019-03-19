@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "links",
+  "info": {
+    "name": "links",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "default": "",
+      "type": "string"
+    },
+    "Link": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

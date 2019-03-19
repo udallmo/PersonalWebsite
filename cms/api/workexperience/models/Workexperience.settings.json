@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "workexperiences",
+  "info": {
+    "name": "workexperience",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Company": {
+      "default": "",
+      "type": "string"
+    },
+    "Description": {
+      "default": "",
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
