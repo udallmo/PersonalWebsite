@@ -9,15 +9,19 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-     posts: []
+      links: [],
+      content: [],
+      tags: [],
+      groups: [],
+      experience: [],
    }
  }
 
  async componentDidMount() {
   try {
     const posts = await strapi.getEntries('contents')
-    this.setState({ posts });
-    console.log(posts);
+    this.setState({ content: posts });
+    console.log(this.state.content);
   } 
   catch(err) {
    alert(err);
