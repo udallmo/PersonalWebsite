@@ -28,6 +28,10 @@
     "link": {
       "default": "",
       "type": "string"
+    },
+    "Position": {
+      "default": "",
+      "type": "string"
     }
   }
 }
