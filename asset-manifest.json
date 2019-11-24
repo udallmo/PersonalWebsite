@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/udallmo.github.io/static/css/main.3c0d25c1.chunk.css",
+    "main.js": "/udallmo.github.io/static/js/main.2cced99a.chunk.js",
+    "main.js.map": "/udallmo.github.io/static/js/main.2cced99a.chunk.js.map",
+    "runtime-main.js": "/udallmo.github.io/static/js/runtime-main.6590dac9.js",
+    "runtime-main.js.map": "/udallmo.github.io/static/js/runtime-main.6590dac9.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/udallmo.github.io/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.7ffec9f3.chunk.js": "/udallmo.github.io/static/js/2.7ffec9f3.chunk.js",
+    "static/js/2.7ffec9f3.chunk.js.map": "/udallmo.github.io/static/js/2.7ffec9f3.chunk.js.map",
+    "index.html": "/udallmo.github.io/index.html",
+    "precache-manifest.a024c186c3c7885bb177871ccb774bce.js": "/udallmo.github.io/precache-manifest.a024c186c3c7885bb177871ccb774bce.js",
+    "service-worker.js": "/udallmo.github.io/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/udallmo.github.io/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.3c0d25c1.chunk.css.map": "/udallmo.github.io/static/css/main.3c0d25c1.chunk.css.map",
+    "static/media/Resume_2019_L.pdf": "/udallmo.github.io/static/media/Resume_2019_L.d96c85ea.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6590dac9.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.7ffec9f3.chunk.js",
+    "static/css/main.3c0d25c1.chunk.css",
+    "static/js/main.2cced99a.chunk.js"
+  ]
+}
