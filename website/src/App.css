@@ -1,6 +1,17 @@
-.App-header {
-  background-color: #282c34;
-  background: #161415 url(assets/images/header-background.jpg) no-repeat ;
+@keyframes widthIncrease {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,107 +21,47 @@
   color: white;
 }
 
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
-
-body { 
-  background: #414141e5; 
+.contactIcon {
   color: white;
-  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  transition: opacity 0.5s;
+  opacity: 1;
 }
 
-a {
-  text-decoration: none;
-  color: white !important;
-  text-align: center;
+.contactIcon:hover {
+  color: #33a380;
 }
 
-.skills {
-  padding: 20px 20px;
-  /* background-color: #2B2B2B; */
-  /* color: black; */
+.contactIcon.hide {
+  opacity: 0;
+  pointer-events:none;
+  z-index: 1;
 }
 
-.experience {
-  padding: 20px 20px;
+.lineStyle {
+  height: 5px;
+  width: 100px;
+  background: white;
+  animation: 1s ease-out 0s 1 widthIncrease;
+  animation-fill-mode: forwards;
 }
 
-.projects {
-  padding: 10px 10px;
-  text-align: center;
-  align-content: center;
-  background-color: #2B2B2B;
-  color: white;
-}
-
-.card {
-  color: #2B2B2B;
-}
-
-.white_divider {
-  height: 2px;
-  background-color: white;
-  width: 80vw;
-  margin: 20px 0px;
-}
-
-.divider {
-  height: 2px;
-  /* width: 80vw; */
-  margin: 10px 0px;
-}
-
-a:hover {
-  text-decoration: none !important;
-}
-
-.container {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-}
-
-.row {
-  padding: 10px 0px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.col, .col-12 {
-  padding: 10px 0px;
-  text-align: center;
-}
-
-.job {
-  text-align: left;
-}
-
-.fab, .fas {
-  font-size: 30px;
-}
-
-.card-img {
+.particle {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  min-height: 100px;
-  max-height: 200px;
+  height: 100%;
+  background-image: linear-gradient(#43cea2, #185a9d);
+  z-index: -1;
 }
 
- i {
-   font-weight: 400;
- }
+.btnStyle {
+  z-index: 1;
+}
 
- .card-text {
-   font-weight: 500;
- }
-
- .link-button {
-  color: #fff;
-  background-color: #2B2B2B;
-  border-color: #2B2B2B;
- }
-
- .experience-body {
-   font-weight: 500;
-   padding-top: 10px;
-   padding-left: 10px;
- }
+.btnStyle:hover {
+  color: #33a380;
+}
